@@ -195,7 +195,8 @@ class getPulseApp(object):
             self.sock.sendto(str(self.processor.bpm), self.udp)
 
         # handle any key presses
-        print self.processor.bpm
+        if(self.processor.bpm!=0):
+            print self.processor.bpm
         self.key_handler()
 
 if __name__ == "__main__":

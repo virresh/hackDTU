@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #CardioSol 
 (A project built by Team CodeChamps for HackDTU)
 
@@ -22,5 +21,3 @@ Quickstart:
 ```
 ./pulse.sh
 ```
-
->>>>>>> First Commit. Script not perfect

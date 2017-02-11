@@ -1,6 +1,8 @@
+# -*- coding: utf-8 -*-
+
 from Tkinter import *
 root = Tk(className ="First") #add a root window named Myfirst GUI
-foo = Label(root,text="Medanta - The Medicity, Delhi
+foo = Label(root,text='''Medanta - The Medicity, Delhi
 Address
 Sector - 38, Gurgaon,
 Haryana 122 001, India
@@ -35,6 +37,6 @@ Mogappair, Chennai - 600 037, India.
 Telephone: 91 44 26568000 / 66738000 / 26561801 / 26565961
 Emergency Contact: 105911
 
-") # add a label to root window
+''') # add a label to root window
 foo.pack()
 root.mainloop()

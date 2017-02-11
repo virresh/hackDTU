@@ -1,6 +1,8 @@
+# -*- coding: utf-8 -*-
+
 from Tkinter import *
 root = Tk(className ="Eigth") #add a root window named Myfirst GUI
-foo = Label(root,text="If your forehead is fiery with fever, you could reach for acetaminophen (Tylenol) or ibuprofen (Advil) to lower your temperature. (Don’t treat fevers with aspirin in anyone under the age of 19; doing so can trigger a potentially fatal disease called Reye’s syndrome.) But if your fever is 38.3°C (101°F) or below, don’t be afraid to let it run its course; Mother Nature has raised your temperature for a reason. If you’re uncom­fortable, though, and you want to take action, try these tips to tame the fires within.
+foo = Label(root,text='''If your forehead is fiery with fever, you could reach for acetaminophen (Tylenol) or ibuprofen (Advil) to lower your temperature. (Don’t treat fevers with aspirin in anyone under the age of 19; doing so can trigger a potentially fatal disease called Reye’s syndrome.) But if your fever is 38.3°C (101°F) or below, don’t be afraid to let it run its course; Mother Nature has raised your temperature for a reason. If you’re uncom­fortable, though, and you want to take action, try these tips to tame the fires within.
 Cool your fever
 • Take a bath in lukewarm water. This temperature will feel plenty cool when you have a fever, and the bath should help bring your body temperature down. Don’t try to bring a fever down rapidly by plunging yourself into cold water; that tactic sends blood rushing to internal organs, which is how your body defends itself from cold. Your interior actually warms up instead of cooling down.
 • Give yourself a sponge bath. Sponging high-heat areas like your armpits and groin with cool water can help reduce your temperature as the water evaporates.
@@ -13,6 +15,6 @@ Hydrate to beat fever
 • Orange juice and other fruit juices rich in vitamin C are good choices, since the vitamin C assists your immune system in fighting off infection.
 • Cold grapes provide hydration-and a soothing treat.
 
-") # add a label to root window
+''') # add a label to root window
 foo.pack()
 root.mainloop()

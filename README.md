@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #CardioSol 
 (A project built by Team CodeChamps for HackDTU)
 

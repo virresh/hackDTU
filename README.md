@@ -19,11 +19,18 @@ Requirements:
 sudo apt-get update
 sudo apt-get install python-numpy
 ```
-
+or
+```
+pip install numpy
+```
 - Scipy
 
 ```
 sudo apt-get install python-scipy
+```
+or
+```
+pip install scipy
 ```
 
 - Tkinter

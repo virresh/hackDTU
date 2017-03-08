@@ -8,6 +8,7 @@ import datetime
 from serial import Serial
 import socket
 import sys
+import time
 
 class getPulseApp(object):
 
@@ -15,8 +16,9 @@ class getPulseApp(object):
     Python application that finds a face in a webcam stream, then isolates the
     forehead.
 
-    Then the average green-light intensity in the forehead region is gathered
-    over time, and the detected person's pulse is estimated.
+    Then the average green-light channel in the forehead region is gathered
+    over time, and the detected person's pulse is estimated. The green channel
+    fluctuations arise due to pumping of blood on the forehead.
     """
 
     def __init__(self, args):
